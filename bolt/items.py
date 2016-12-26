@@ -7,12 +7,14 @@
 
 import scrapy
 
+
 class Webpage(scrapy.Item):
-	title = scrapy.Field()
-	links = scrapy.Field()
-	status = scrapy.Field()
-	images = scrapy.Field()
+    title = scrapy.Field()
+    links = scrapy.Field()
+    status = scrapy.Field()
+    images = scrapy.Field()
+
 
 class Image(scrapy.Item):
-	src = scrapy.Field()
-	name = scrapy.Field()
+    src = scrapy.Field()
+    name = scrapy.Field()
