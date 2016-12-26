@@ -16,8 +16,3 @@ class Webpage(scrapy.Item):
 class Image(scrapy.Item):
 	src = scrapy.Field()
 	name = scrapy.Field()
-
-class BoltItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
