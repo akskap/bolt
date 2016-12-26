@@ -7,6 +7,15 @@
 
 import scrapy
 
+class Webpage(scrapy.Item):
+	title = scrapy.Field()
+	links = scrapy.Field()
+	status = scrapy.Field()
+	images = scrapy.Field()
+
+class Image(scrapy.Item):
+	src = scrapy.Field()
+	name = scrapy.Field()
 
 class BoltItem(scrapy.Item):
     # define the fields for your item here like:
